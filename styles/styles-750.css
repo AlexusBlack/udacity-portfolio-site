@@ -1,7 +1,11 @@
-.title {
+.page-header .title {
   font-size: 3.7em;
 }
 
 .banner .text {
   font-size: 3.5em;
+}
+
+.portfolio-item {
+  width: 32%;
 }

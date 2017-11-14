@@ -74,26 +74,32 @@ img {
 }
 
 /* portfolio section styles */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .portfolio .header {
   color: #cc0000;
   font-size: 1.5em;
   margin: 1em 5px 0.5em;
+  width: 100%;
 }
 
-.protfolio-item {
+.portfolio-item {
   text-align: center;
   color: #aa0000;;
   margin-bottom: 1.5em;
 }
 
-.protfolio-item .title {
+.portfolio-item .title {
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: 300;
   margin: 0.3em 0;
 }
 
-.protfolio-item .link {
+.portfolio-item .link {
   font-size: 0.8em;
   text-decoration: none;
   color: inherit;
