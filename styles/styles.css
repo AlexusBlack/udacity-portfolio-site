@@ -82,7 +82,7 @@ img {
 
 .protfolio-item {
   text-align: center;
-  color: #6699CC;
+  color: #aa0000;;
   margin-bottom: 1.5em;
 }
 
@@ -96,5 +96,30 @@ img {
 .protfolio-item .link {
   font-size: 0.8em;
   text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  max-width: 370px;
+  flex-wrap: wrap;
+  background-color: #cc0000;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  padding: 1em;
+  margin: 100px auto 50px;
+  border: 20px solid white;
+  box-shadow: 0 0 0 1px #c00;
+  transform: rotate(15deg);
+}
+
+.footer .purpose {
+  font-size: 0.7em;
+}
+
+.footer a {
   color: inherit;
 }
