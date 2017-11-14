@@ -122,6 +122,11 @@ img {
   border: 20px solid white;
   box-shadow: 0 0 0 1px #c00;
   transform: rotate(15deg);
+  transition: transform 0.5s;
+}
+
+.footer:hover {
+  transform: rotate(0deg);
 }
 
 .footer .purpose {
