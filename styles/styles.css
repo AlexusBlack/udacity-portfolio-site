@@ -6,6 +6,7 @@ html {
   box-sizing: inherit;
 }
 
+/* general styles */
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -20,6 +21,7 @@ img {
   max-width: 100%;
 }
 
+/* header styles */
 .page-header {
   display: flex;
   padding: 1em;
@@ -27,19 +29,20 @@ img {
   margin-bottom: 1.5em;
 }
 
-.title {
+.page-header .title {
   font-size: 2em;
   font-weight: 300;
   margin: 0 0 0 auto;
   text-align: right;
 }
 
-.title .characteristic {
+.page-header .title .characteristic {
   display: block;
   font-size: 0.5em;
   font-weight: 400;
 }
 
+/* banner styles */
 .banner {
   position: relative;
   overflow: hidden;
@@ -68,4 +71,30 @@ img {
   text-align: center;
   font-size: 2.5em;
   z-index: 2;
+}
+
+/* portfolio section styles */
+.portfolio .header {
+  color: #cc0000;
+  font-size: 1.5em;
+  margin: 1em 5px 0.5em;
+}
+
+.protfolio-item {
+  text-align: center;
+  color: #6699CC;
+  margin-bottom: 1.5em;
+}
+
+.protfolio-item .title {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0.3em 0;
+}
+
+.protfolio-item .link {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: inherit;
 }
